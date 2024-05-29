@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot Home Page</title>
+</head>
+<body>
+    <h1>Welcome to Spring Boot!</h1>
+    <p>This is the home page of your Spring Boot application.</p>
+    <h2>Jenkins Build Information</h2>
+    <div th:utext="${buildInfo}"></div>
+</body>
+</html>
